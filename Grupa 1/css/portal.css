@@ -1,0 +1,50 @@
+body{
+ font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+.container{
+    width: 96%;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.info, .categories, .authors, .contact, .university {
+    padding:  50px 0px;
+}
+
+.info {
+    background-color: #0097A7;
+    color: #fff;
+}
+
+.info .title {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.info.description {
+    line-height: 26px;
+}
+
+.info .motto {
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+}
+
+.categories {
+    background-color: #e39362;
+}
+
+.categories .glyphicon {
+    font-size: 52px;
+    color: black;
+}
+
+.categories .glyphicon:hover {
+    font-size: 58px;
+    text-shadow: 0 0 15px #333;
+    transition: 0.5s;
+}
